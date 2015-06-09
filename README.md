@@ -1,2 +1,3 @@
-# gitexperiment
-am using this repo to learn git concepts
+# newbie-git-guide
+
+A newbie Git guide.

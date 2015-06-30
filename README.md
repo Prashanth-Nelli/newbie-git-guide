@@ -1,10 +1,10 @@
-### Newbie-Git-Guide
+##Newbie-Git-Guide
 
 A newbie Git guide.
 
-####Git Basics :-
+###Git Basics :-
 
-#####Git Configuration :-
+#### ``` 1. Git Configuration :-```
 
 ##### ``` Configuring User Details Git :- ```
 
@@ -33,5 +33,13 @@ output:-    user.name=git user
     2. Checking Settings by Key :-
 ```
 ```
-        git config {key}
+            git config {key}
+```
+
+#### ```2. Getting A Git Repo:- ```
+```
+    1. Converting An Existing Repo Into Git Repo :-Goto that Root Directory and run the following command
+            git init.
+    2. Cloning an Existing Repository :-
+        git clone {repo link}
 ```

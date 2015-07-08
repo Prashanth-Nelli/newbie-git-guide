@@ -73,3 +73,19 @@ Eg:-
 Eg:-
     git show 085b24d749c5376b7e022dbc83b6a05d0783bb97
 ```
+#### ```9. Changing Commit message of previous Commits :-```
+```  
+    1. Changing the Commit Message of the latest commit on the branch
+         
+       git commit --amend -m "Modified Commit Message"
+    
+    2. Changing the Commit Message of the commits other than latest commit
+
+       git rebase -i <commit-to-change>~
+
+       This will fire up an editor. Replace pick with edit on the correct commit entry, save and exit. Then:
+
+       git commit --amend -m "New commit message"
+       
+       git rebase --continue
+```
